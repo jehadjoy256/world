@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Me More - কবিতার জগৎ</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Serif Bengali', serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    header h1 {
+      font-size: 1.5em;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #f39c12;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .poem {
+      margin: 20px 0;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .poem:hover {
+      background: rgba(255, 255, 255, 0.1);
+      transform: translateY(-5px);
+    }
+
+    .poem h2 {
+      margin-top: 0;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Love Me More</h1>
+    <nav>
+      <a href="#poems">Poems</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container" id="poems">
+    <div class="poem" onclick="togglePoem(this)">
+      <h2>প্রতিশ্রুতি ✧ — জিহাদ জয়</h2>
+      <div class="hidden">
+        <p>তোমার প্রতিটি কথায় বাজে আমার প্রাণে সুর ♪<br>
+          মুনতাহা, তুমিই আমার শান্তির পথ, ভালোবাসার দূর ☆彡<br>
+          তোমার স্বপ্নে আমি বুনি নিরালায় ভালোবাসার ঘর ✿<br>
+          তোমার হাত ধরে কাটুক আমার প্রতিটি আবেগের প্রহর ๑♡<br><br>
+
+          যে ভোরে তুমি জাগাবে আমায়, সে ভোর হবে ধন্য ☀<br>
+          তোমার বুকে আমি খুঁজে পাব ভালোবাসার অমল স্পর্শ ｡☆<br>
+          হাঁটবো চলার পথে পাশাপাশি, হারাবো শত ব্যথা ✷<br>
+          তোমার সাথে কাটবে আমার শ্রাবণের প্রথম কথা *・<br><br>
+
+          রেল লাইনের পাশে, সূর্য অস্তে যাবে চুপিচুপিミ<br>
+          আমি থাকবো পাশে তোমার, হারিয়ে যাবো নীরব রূপে *✧<br>
+          একটুখানি হাসি, একটু অভিমান, সবই হোক তোমার জন্য ♡<br>
+          এই প্রাণ, এই প্রেম, এই মন—সব কেবল তোমাকে ঘিরেই ধন্য ‿✿<br><br>
+
+          তুমি বাসনা, আমি প্রতিশ্রুতি—চলো পূর্ণ করি স্বপ্ন দু’জন মিলে｡:ﾟ</p>
+      </div>
+    </div>
+
+    <div class="poem" onclick="togglePoem(this)">
+      <h2>আলো ও আঁধার — জিহাদ জয়</h2>
+      <div class="hidden">
+        <p>রজনীর অতল আঁধারে জ্বলে ওঠে এক দীপ্ত দীপশিখা,<br>
+          তুমি কি সেই আলো, না কি ছায়ার মায়া?<br>
+          আমার হৃদয় তো দ্বিধাবিভক্ত,<br>
+          আধেক প্রেমে সিক্ত, আধেক ক্ষতবিক্ষত।<br><br>
+
+          তোমার নাম উচ্চারণ করিলে জিহ্বায় মধু ঝরে,<br>
+          আবার সেই নামই নিশীথে বিষ হয়ে ওঠে অন্তরে।<br>
+          তুমি ছিলে— যেন বৃষ্টির প্রথম ফোঁটা শ্রাবণের মুখে,<br>
+          তুমি গেলে— শুষ্ক পত্রের নীরব আর্তনাদ, শুকনো কার্তিকের মতো।<br><br>
+
+          আমার নয়নদুটি তোমার মুখচ্ছবির মন্দির,<br>
+          তবু সে মন্দিরে আজ বিষণ্ন ধূপের গন্ধ।<br>
+          প্রেমিক জানে— এই তো সুখের সমাপ্তি,<br>
+          ভগ্ন হৃদয় জানে— সুখ তো কেবল এক মরীচিকা,<br>
+          যা কেবল ছায়া ফেলে চলে যায় অনন্ত পথে।<br><br>
+
+          তুমি যেদিন এসেছিলে,<br>
+          হৃদয় গেয়েছিল বসন্তের গান,<br>
+          তুমি যেদিন চলে গেলে,<br>
+          সেই হৃদয়েই বেজেছে শীতল কাফনের সানাই।<br><br>
+
+          তবু— এ কেমন মোহ, যে আজও তোমার অপেক্ষা করে?<br>
+          এ কেমন অভিশাপ, যে মুছে না পুরাতন চিঠির গন্ধ?<br>
+          প্রেম কি তবে মুক্তি? না কি শাস্তির পরিণত রূপ?<br><br>
+
+          যে প্রেমিক আজো অপেক্ষায়, সে পাঠ করুক এই কবিতা,<br>
+          তার হৃদয়ে ফুটে উঠুক আশ্রয়ের সূর্য।<br>
+          আর যে ভগ্ন হৃদয় আজও কান্না লুকায়,<br>
+          সে পড়ুক এই পঙক্তিমালা—<br>
+          যেন প্রতিটি শব্দে সে নিজেই নিজের অশ্রু খুঁজে পায়।<br><br>
+
+          কারণ এই কবিতা কেবল কবিতা নয়—<br>
+          এ এক দর্পণ,<br>
+          যেখানে প্রেমিক দেখে মিলন,<br>
+          ভগ্ন হৃদয় দেখে তার অনন্ত বিচ্ছেদ।<br>
+          একটি হৃদয়, দুটি ছায়া— আলো আর আঁধারের অবিচ্ছেদ্য উপাখ্যান।</p>
+      </div>
+    </div>
+
+    <div class="poem" onclick="togglePoem(this)">
+      <h2>একটি চিরন্তন প্রতীক্ষা — জিহাদ জয়</h2>
+      <div class="hidden">
+        <p>তুমি আসিলে না বলি, তবু জানি—<br>
+          এই বাতাসে কাঁপিছে গন্ধ, তোমার আঁচলের,<br>
+          আকাশের ওই নীল ছায়ায়, খুঁজে পাই তোমার চাহনি,<br>
+          সূর্যের দীপ্তি যেন গলে গলে নামে আমার হৃদয়স্রোতে।<br><br>
+
+          তুমি হয়তো জান না—<br>
+          আমার নিঃশ্বাসে তোমার নাম জেগে থাকে,<br>
+          যেমন থাকে নদীর বুকে চাঁদের প্রতিবিম্ব,<br>
+          যেমন থাকে পাতার ফাঁকে ফাঁকে রৌদ্রের হাসি।<br><br>
+
+          একবার যদি আসো,<br>
+          আমি খুলে রাখি হৃদয়পট,<br>
+          যেখানে আঁকা আছে তোমার রূপ—<br>
+          পাতার নীরবতা, জোছনার শান্তি,<br>
+          আর এক বিন্দু বেদনা,<br>
+          যা তোমার না-থাকা থেকে জন্ম নেয়।<br><br>
+
+          তুমি পড়ো আমার প্রেমে,<br>
+          যেমন নদী পড়ে সমুদ্রের আকর্ষণে—<br>
+          ধীরে ধীরে, বাঁক বেঁকে, গোপনে,<br>
+          অবশেষে নিজেকে বিলিয়ে দিয়ে।<br><br>
+
+          আমি হবো তোমার ছায়া—<br>
+          তুমি যেদিকে যাবে, আমি নিরবে থেকে যাব,<br>
+          তোমার ক্লান্ত দুপুরে হয়ে উঠবো আশ্রয়,<br>
+          তোমার অন্ধকার রাতে হবো দীপ্ত প্রদীপ।<br><br>
+
+          ভালোবাসা যে প্রার্থনার মতো—<br>
+          বলতে হয় না সব শব্দে,<br>
+          কখনো কেবল চেয়ে থাকা যথেষ্ট,<br>
+          কখনো কেবল নীরব চোখ দুটো বলে দেয় সব কথা।<br><br>
+
+          তুমি এসো—<br>
+          না বলেই এসো,<br>
+          হৃদয়ের কোলাহলে নয়, শান্তির ধ্বনিতে,<br>
+          আমি বসে আছি— একটি চিরন্তন প্রতীক্ষার নাম করে— তোমার জন্য।</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact Info</h2>
+    <p><strong>Name:</strong> Jehad Joy</p>
+    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/king.is.back.take.love.all" target="_blank">facebook.com/king.is.back.take.love.all</a></p>
+    <p><strong>WhatsApp:</strong> 01959135627</p>
+  </div>
+
+  <footer>
+    <p>Copyright © 2025 Jehad Joy. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function togglePoem(poemDiv) {
+      const content = poemDiv.querySelector('.hidden');
+      content.classList.toggle('hidden');
+    }
+  </script>
+</body>
+
+</html>
